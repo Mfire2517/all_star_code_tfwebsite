@@ -1,0 +1,299 @@
+
+
+/* images*/
+.images
+{
+    display:flex;
+    justify-content: center;
+}
+
+.moon_img
+{
+    display: flex ;
+    justify-content: center;
+    
+    
+}
+#moon
+{
+    margin : 50px;
+    border-radius: 100px;
+    border: 25px double #788DC9 ;
+    width : 600px;
+    height: 600px;
+}
+
+.about_img
+{
+    width: 600px;
+    height: 600px;
+}
+#extra_img1
+{
+    margin: 30px;
+}
+
+#extra_img2
+{
+    margin: 30px;
+}
+
+#kelty_img1
+{
+    margin: 30px;
+}
+
+#kelty_img2
+{
+    margin: 30px;
+}
+
+#like_img1
+{
+    margin: 30px;
+}
+
+#like_img2
+{
+    margin: 30px;
+}
+
+/* navBar*/
+.nav_Bar
+{
+    display: flex;
+    flex-direction :row;
+   justify-content: space-around;
+  
+   padding: 30px;
+   background-color:rgb(36, 36, 131);
+}
+
+.gitHub_button
+{
+    text-decoration:none;
+    padding: 20px;
+    border: 10px solid #788DC9 ;
+    background-color: rgb(36, 36, 131);
+    color: white;
+    border-radius : 50px;
+    font-size: 30px;
+    font-family: Verdana;
+}
+.gitHub_button:hover
+{
+    background-color:  rgb(80, 80, 202);
+}
+
+.Kelty_button
+{
+    text-decoration:none;
+    padding: 20px;
+    border: 10px solid #788DC9 ;
+    background-color: rgb(36, 36, 131);
+    color: white;
+    border-radius : 50px;
+    font-size: 30px;
+    font-family: Verdana;
+}
+.Kelty_button:hover
+{
+    background-color:  rgb(80, 80, 202);
+}
+
+
+.school_button
+{
+    text-decoration:none;
+    padding: 20px;
+    border: 10px solid #788DC9 ;
+    background-color: rgb(36, 36, 131);
+    color: white;
+    border-radius : 50px;
+    font-size: 30px;
+    font-family: Verdana;
+    
+}
+.school_button:hover
+{
+    background-color:  rgb(80, 80, 202);
+}
+
+.extracurricular_button
+{
+    text-decoration:none;
+    padding: 20px;
+    border: 10px solid #788DC9 ;
+    background-color: rgb(36, 36, 131);
+    color: white;
+    border-radius : 50px;
+    font-size: 30px;
+    font-family: Verdana;
+}
+.extracurricular_button:hover
+{
+    background-color:  rgb(80, 80, 202);
+}
+
+/* header*/
+
+#my_name
+{
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    font-family: papyrus;
+}
+
+/*header 2*/
+
+.professions
+{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+   
+
+    
+   
+    
+}
+
+.learner
+{
+    font-size: 60px;
+    font-family: Courier New;
+    
+}
+
+.coder
+{
+    font-size: 60px;
+    font-family: Courier New;
+}
+
+.maker
+{
+    font-size: 60px;
+    font-family: Courier New;
+}
+
+/* titles*/
+
+.titles
+{
+    font-size: 70px;
+    margin-left: 30px;
+}
+
+/*paragragh*/
+
+.about_me
+{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 10px solid rgb(36, 36, 131);
+    margin:40px;
+    margin-right: 100px;
+
+}
+
+.what_I_like
+{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 10px solid rgb(36, 36, 131);
+}
+
+.Kelty
+{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 10px solid rgb(36, 36, 131);
+    
+}
+
+.extracurricular
+{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 10px solid rgb(36, 36, 131);
+    
+}
+
+
+/* make for Phones*/
+
+@media screen and (max-width: 800px)
+{
+
+#moon
+{
+    
+    width : 400px;
+    height: 400px;
+    margin-left: 400px;
+}
+#my_name
+{
+    font: 100px;
+    margin-left: 400px;
+}
+.professions
+{
+    font-size: 50px;
+    margin-left: 400px;
+}
+.nav_Bar
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: -400px;
+    
+}
+.images
+{
+    display: flex;
+    flex-direction: column;
+  
+}
+.about_me
+{
+    margin-right: -350px;
+}
+
+
+.about_me
+{
+    margin-right: -350px;
+}
+.what_I_like
+{
+    margin-right: -350px;
+}
+.like_img
+{
+    margin-right: 400px;
+}
+.Kelty
+{
+    margin-right: -350px;
+}
+.extracurricular
+{
+    margin-right: -350px;
+}
+
+
+}
+
+
+
+
+
